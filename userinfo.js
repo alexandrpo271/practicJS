@@ -1,6 +1,7 @@
 const age = prompt ('Укажите ваш возаст');
 const gender = confirm ('Если ваш пол мужской, нажмите "ОК"');
 
+
 if ( age > 60 && gender === true ) {
     console.log('Вы дедушка')
 }
